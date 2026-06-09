@@ -16,38 +16,30 @@ public class GlobalExceptionHandler {
     public ResponseEntity<Map<String, Object>> handleRuntimeException(
             RuntimeException exception) {
 
-        Map<String, Object> response =
-                new HashMap<>();
+        exception.printStackTrace();
 
-        response.put("timestamp",
-                LocalDateTime.now());
+        Map<String, Object> response = new HashMap<>();
 
-        response.put("status",
-                HttpStatus.BAD_REQUEST.value());
+        response.put("timestamp", LocalDateTime.now());
+        response.put("status", HttpStatus.BAD_REQUEST.value());
+        response.put("message", exception.getMessage());
 
-        response.put("message",
-                exception.getMessage());
-
-        return ResponseEntity
-                .badRequest()
-                .body(response);
+        return ResponseEntity.badRequest().body(response);
     }
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleException(
             Exception exception) {
 
-        Map<String, Object> response =
-                new HashMap<>();
+        exception.printStackTrace();
 
-        response.put("timestamp",
-                LocalDateTime.now());
+        Map<String, Object> response = new HashMap<>();
 
-        response.put("status",
-                HttpStatus.INTERNAL_SERVER_ERROR.value());
+        response.put("timestamp", LocalDateTime.now());
+        response.put("status", HttpStatus.INTERNAL_SERVER_ERROR.value());
 
-        response.put("message",
-                "Something went wrong");
+        // Show actual error temporarily
+        response.put("message", exception.getMessage());
 
         return ResponseEntity
                 .status(HttpStatus.INTERNAL_SERVER_ERROR)
