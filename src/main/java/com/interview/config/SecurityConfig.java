@@ -3,7 +3,9 @@ package com.interview.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+
 import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
@@ -15,13 +17,17 @@ public class SecurityConfig {
             throws Exception {
 
         http
-            .csrf(csrf -> csrf.disable())
+                .csrf(csrf -> csrf.disable())
 
-            .authorizeHttpRequests(auth -> auth
-                    .anyRequest()
-                    .permitAll())
+                .authorizeHttpRequests(auth -> auth
+                        .anyRequest()
+                        .permitAll())
 
-            .httpBasic(httpBasic -> httpBasic.disable());
+                .httpBasic(httpBasic ->
+                        httpBasic.disable())
+
+                .formLogin(form ->
+                        form.disable());
 
         return http.build();
     }
