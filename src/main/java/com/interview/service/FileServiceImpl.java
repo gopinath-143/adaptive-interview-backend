@@ -1,12 +1,12 @@
 package com.interview.service;
 
-import java.io.File;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
 
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -18,8 +18,7 @@ import jakarta.annotation.PostConstruct;
 @Service
 public class FileServiceImpl implements FileService {
 
-    @Value("${question.bank.path}")
-    private String filePath;
+    
 
     private QuestionBank questionBank;
     
@@ -77,25 +76,26 @@ public class FileServiceImpl implements FileService {
 
             System.out.println("=================================");
             System.out.println("Loading Question Bank");
-            System.out.println("File Path = " + filePath);
 
-            File file = new File(filePath);
+            Resource resource =
+                    new ClassPathResource(
+                            "questions.json");
 
-            System.out.println("File Exists = " + file.exists());
-            System.out.println("Absolute Path = " + file.getAbsolutePath());
-
-            ObjectMapper mapper = new ObjectMapper();
+            ObjectMapper mapper =
+                    new ObjectMapper();
 
             questionBank =
                     mapper.readValue(
-                            file,
+                            resource.getInputStream(),
                             QuestionBank.class);
 
-            System.out.println("Question Bank Loaded Successfully");
+            System.out.println(
+                    "Question Bank Loaded Successfully");
 
         } catch (Exception e) {
 
-            System.out.println("QUESTION BANK LOAD FAILED");
+            System.out.println(
+                    "QUESTION BANK LOAD FAILED");
 
             e.printStackTrace();
         }

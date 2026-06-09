@@ -1,0 +1,1220 @@
+{
+  "skills": {
+  "Java": {
+    "Easy": [
+      {
+        "question": "What is JVM?",
+        "answer": "JVM stands for Java Virtual Machine. It executes Java bytecode."
+      },
+      {
+        "question": "What is JDK?",
+        "answer": "JDK is Java Development Kit used to develop Java applications."
+      },
+      {
+        "question": "What is JRE?",
+        "answer": "JRE provides the environment required to run Java applications."
+      },
+      {
+        "question": "What is Java?",
+        "answer": "Java is an object-oriented, platform-independent programming language."
+      },
+      {
+        "question": "What is a class in Java?",
+        "answer": "A class is a blueprint used to create objects."
+      },
+      {
+        "question": "What is an object?",
+        "answer": "An object is an instance of a class."
+      },
+      {
+        "question": "What are variables?",
+        "answer": "Variables are containers used to store data values."
+      },
+      {
+        "question": "What are data types in Java?",
+        "answer": "Data types define the type of data a variable can hold."
+      },
+      {
+        "question": "What is a method?",
+        "answer": "A method is a block of code that performs a specific task."
+      },
+      {
+        "question": "What is the main method?",
+        "answer": "The main method is the entry point of a Java application."
+      },
+      {
+        "question": "What is inheritance?",
+        "answer": "Inheritance allows one class to acquire properties and methods of another class."
+      },
+      {
+        "question": "What is polymorphism?",
+        "answer": "Polymorphism allows one interface to represent different forms."
+      },
+      {
+        "question": "What is encapsulation?",
+        "answer": "Encapsulation binds data and methods together and restricts direct access."
+      },
+      {
+        "question": "What is abstraction?",
+        "answer": "Abstraction hides implementation details and shows only functionality."
+      },
+      {
+        "question": "What is a constructor?",
+        "answer": "A constructor initializes objects when they are created."
+      },
+      {
+        "question": "What is an array?",
+        "answer": "An array stores multiple values of the same type."
+      },
+      {
+        "question": "What is a package?",
+        "answer": "A package is used to organize related classes and interfaces."
+      },
+      {
+        "question": "What is a loop?",
+        "answer": "A loop repeatedly executes a block of code."
+      },
+      {
+        "question": "What is a String?",
+        "answer": "String is a class used to represent text."
+      },
+      {
+        "question": "What is exception handling?",
+        "answer": "Exception handling manages runtime errors using try-catch blocks."
+      }
+    ],
+    "Medium": [
+      {
+        "question": "Explain OOP concepts.",
+        "answer": "The four OOP concepts are Encapsulation, Inheritance, Polymorphism and Abstraction."
+      },
+      {
+        "question": "Difference between == and equals()?",
+        "answer": "== compares references while equals() compares object content."
+      },
+      {
+        "question": "What is method overloading?",
+        "answer": "Method overloading allows multiple methods with the same name but different parameters."
+      },
+      {
+        "question": "What is method overriding?",
+        "answer": "Method overriding allows a subclass to provide its own implementation of a parent method."
+      },
+      {
+        "question": "What is an interface?",
+        "answer": "An interface defines a contract that classes can implement."
+      },
+      {
+        "question": "What is an abstract class?",
+        "answer": "An abstract class cannot be instantiated and may contain abstract methods."
+      },
+      {
+        "question": "Difference between ArrayList and LinkedList?",
+        "answer": "ArrayList uses a dynamic array while LinkedList uses a doubly linked list."
+      },
+      {
+        "question": "What is the Collection Framework?",
+        "answer": "The Collection Framework provides classes and interfaces for storing and manipulating groups of objects."
+      },
+      {
+        "question": "What is HashMap?",
+        "answer": "HashMap stores key-value pairs and allows fast retrieval."
+      },
+      {
+        "question": "Difference between HashMap and Hashtable?",
+        "answer": "HashMap is not synchronized while Hashtable is synchronized."
+      },
+      {
+        "question": "What is exception propagation?",
+        "answer": "Exception propagation is the process of passing exceptions up the call stack."
+      },
+      {
+        "question": "What is the final keyword?",
+        "answer": "The final keyword prevents modification of variables, methods, or classes."
+      },
+      {
+        "question": "What is the static keyword?",
+        "answer": "Static members belong to the class rather than instances."
+      },
+      {
+        "question": "What is autoboxing?",
+        "answer": "Autoboxing automatically converts primitive types into wrapper objects."
+      },
+      {
+        "question": "What is unboxing?",
+        "answer": "Unboxing converts wrapper objects back to primitive types."
+      },
+      {
+        "question": "What is the difference between String, StringBuilder and StringBuffer?",
+        "answer": "String is immutable, StringBuilder is mutable and non-thread-safe, StringBuffer is mutable and thread-safe."
+      },
+      {
+        "question": "What is a lambda expression?",
+        "answer": "Lambda expressions provide a concise way to implement functional interfaces."
+      },
+      {
+        "question": "What is Stream API?",
+        "answer": "Stream API processes collections using functional-style operations."
+      },
+      {
+        "question": "What is serialization?",
+        "answer": "Serialization converts an object into a byte stream."
+      },
+      {
+        "question": "What is deserialization?",
+        "answer": "Deserialization reconstructs an object from a byte stream."
+      }
+    ],
+    "Hard": [
+      {
+        "question": "Explain ConcurrentHashMap.",
+        "answer": "ConcurrentHashMap provides thread-safe operations with improved concurrency."
+      },
+      {
+        "question": "How does HashMap work internally?",
+        "answer": "HashMap uses hashing, buckets and linked structures to store key-value pairs."
+      },
+      {
+        "question": "Explain Java Memory Model.",
+        "answer": "The Java Memory Model defines how threads interact through memory."
+      },
+      {
+        "question": "What is garbage collection?",
+        "answer": "Garbage Collection automatically removes unused objects from memory."
+      },
+      {
+        "question": "Explain G1 Garbage Collector.",
+        "answer": "G1 GC divides the heap into regions and performs efficient garbage collection."
+      },
+      {
+        "question": "What are deadlocks?",
+        "answer": "Deadlocks occur when multiple threads wait indefinitely for each other."
+      },
+      {
+        "question": "Explain synchronization in Java.",
+        "answer": "Synchronization controls access to shared resources among multiple threads."
+      },
+      {
+        "question": "What is volatile keyword?",
+        "answer": "Volatile ensures visibility of variable updates across threads."
+      },
+      {
+        "question": "Explain Executor Framework.",
+        "answer": "Executor Framework simplifies thread management and task execution."
+      },
+      {
+        "question": "What is CompletableFuture?",
+        "answer": "CompletableFuture supports asynchronous programming and task chaining."
+      },
+      {
+        "question": "What are functional interfaces?",
+        "answer": "Functional interfaces contain exactly one abstract method."
+      },
+      {
+        "question": "Explain Java Reflection.",
+        "answer": "Reflection allows inspection and modification of classes at runtime."
+      },
+      {
+        "question": "What is class loading?",
+        "answer": "Class loading is the process of loading classes into JVM memory."
+      },
+      {
+        "question": "Explain custom class loaders.",
+        "answer": "Custom class loaders allow loading classes from customized sources."
+      },
+      {
+        "question": "What is immutable class?",
+        "answer": "An immutable class cannot be modified after creation."
+      },
+      {
+        "question": "How does String pool work?",
+        "answer": "String pool stores unique String literals to optimize memory usage."
+      },
+      {
+        "question": "Explain fail-fast and fail-safe iterators.",
+        "answer": "Fail-fast iterators throw exceptions on modification while fail-safe iterators work on a copy."
+      },
+      {
+        "question": "What is ForkJoin Framework?",
+        "answer": "ForkJoin Framework divides tasks into smaller subtasks for parallel execution."
+      },
+      {
+        "question": "Explain Java NIO.",
+        "answer": "Java NIO provides non-blocking I/O operations and buffer-based data handling."
+      },
+      {
+        "question": "What are design patterns commonly used in Java?",
+        "answer": "Singleton, Factory, Builder, Strategy and Observer are commonly used design patterns."
+      }
+    ]
+  }
+,
+
+  "Spring Boot": {
+    "Easy": [
+      {
+        "question": "What is Spring Boot?",
+        "answer": "Spring Boot simplifies Spring application development."
+      },
+      {
+        "question": "What is Spring Framework?",
+        "answer": "Spring is a framework used for enterprise Java application development."
+      },
+      {
+        "question": "What is dependency injection?",
+        "answer": "Dependency Injection allows objects to receive dependencies from the container."
+      },
+      {
+        "question": "What is @SpringBootApplication?",
+        "answer": "It is a combination of @Configuration, @EnableAutoConfiguration and @ComponentScan."
+      },
+      {
+        "question": "What is a Spring Bean?",
+        "answer": "A Spring Bean is an object managed by the Spring container."
+      },
+      {
+        "question": "What is @Component?",
+        "answer": "@Component marks a class as a Spring-managed bean."
+      },
+      {
+        "question": "What is @Autowired?",
+        "answer": "@Autowired injects dependencies automatically."
+      },
+      {
+        "question": "What is application.properties?",
+        "answer": "It is used to configure Spring Boot application settings."
+      },
+      {
+        "question": "What is Spring Initializr?",
+        "answer": "Spring Initializr generates Spring Boot project structures."
+      },
+      {
+        "question": "What is embedded Tomcat?",
+        "answer": "Embedded Tomcat allows Spring Boot applications to run without external servers."
+      },
+      {
+        "question": "What is a REST API?",
+        "answer": "REST API enables communication using HTTP methods."
+      },
+      {
+        "question": "What is @RestController?",
+        "answer": "@RestController creates RESTful web services."
+      },
+      {
+        "question": "What is @GetMapping?",
+        "answer": "@GetMapping handles HTTP GET requests."
+      },
+      {
+        "question": "What is @PostMapping?",
+        "answer": "@PostMapping handles HTTP POST requests."
+      },
+      {
+        "question": "What is @RequestBody?",
+        "answer": "@RequestBody binds request payloads to Java objects."
+      },
+      {
+        "question": "What is @PathVariable?",
+        "answer": "@PathVariable extracts values from URL paths."
+      },
+      {
+        "question": "What is @RequestParam?",
+        "answer": "@RequestParam extracts query parameters from requests."
+      },
+      {
+        "question": "What is Spring Data JPA?",
+        "answer": "Spring Data JPA simplifies database access using repositories."
+      },
+      {
+        "question": "What is H2 Database?",
+        "answer": "H2 is an in-memory database commonly used for testing."
+      },
+      {
+        "question": "What is Maven?",
+        "answer": "Maven is a build and dependency management tool."
+      }
+    ],
+    "Medium": [
+      {
+        "question": "Explain Dependency Injection.",
+        "answer": "Dependency Injection is a design pattern where dependencies are injected by the container."
+      },
+      {
+        "question": "What is Spring Boot Auto Configuration?",
+        "answer": "Auto Configuration automatically configures beans based on project dependencies."
+      },
+      {
+        "question": "What is @Service?",
+        "answer": "@Service marks a class as a service-layer component."
+      },
+      {
+        "question": "What is @Repository?",
+        "answer": "@Repository marks a class responsible for database operations."
+      },
+      {
+        "question": "What is @Controller?",
+        "answer": "@Controller handles web requests and returns views."
+      },
+      {
+        "question": "What is Bean Scope?",
+        "answer": "Bean scope defines the lifecycle and visibility of Spring beans."
+      },
+      {
+        "question": "What is Singleton Scope?",
+        "answer": "Singleton scope creates one bean instance per container."
+      },
+      {
+        "question": "What is Prototype Scope?",
+        "answer": "Prototype scope creates a new bean instance each time requested."
+      },
+      {
+        "question": "What is Spring Profiles?",
+        "answer": "Profiles allow different configurations for different environments."
+      },
+      {
+        "question": "What is CommandLineRunner?",
+        "answer": "CommandLineRunner executes code after application startup."
+      },
+      {
+        "question": "What is JpaRepository?",
+        "answer": "JpaRepository provides CRUD and pagination operations."
+      },
+      {
+        "question": "What is @Entity?",
+        "answer": "@Entity marks a class as a database table."
+      },
+      {
+        "question": "What is @Id?",
+        "answer": "@Id identifies the primary key of an entity."
+      },
+      {
+        "question": "What is @GeneratedValue?",
+        "answer": "@GeneratedValue automatically generates primary key values."
+      },
+      {
+        "question": "What is pagination?",
+        "answer": "Pagination retrieves data in smaller chunks."
+      },
+      {
+        "question": "What is sorting in Spring Data?",
+        "answer": "Sorting arranges query results in a specified order."
+      },
+      {
+        "question": "What is exception handling in Spring Boot?",
+        "answer": "Spring Boot handles exceptions using @ExceptionHandler and ControllerAdvice."
+      },
+      {
+        "question": "What is validation?",
+        "answer": "Validation ensures data meets defined constraints before processing."
+      },
+      {
+        "question": "What is Actuator?",
+        "answer": "Actuator provides monitoring and management endpoints."
+      },
+      {
+        "question": "What is Swagger/OpenAPI?",
+        "answer": "Swagger documents and tests REST APIs."
+      }
+    ],
+    "Hard": [
+      {
+        "question": "Explain Spring Bean Lifecycle.",
+        "answer": "The lifecycle includes instantiation, dependency injection, initialization and destruction."
+      },
+      {
+        "question": "What is Spring Security?",
+        "answer": "Spring Security provides authentication and authorization features."
+      },
+      {
+        "question": "Explain JWT authentication.",
+        "answer": "JWT uses signed tokens to authenticate users without server-side sessions."
+      },
+      {
+        "question": "What is OAuth2?",
+        "answer": "OAuth2 is an authorization framework for secure resource access."
+      },
+      {
+        "question": "What is microservices architecture?",
+        "answer": "Microservices split applications into independently deployable services."
+      },
+      {
+        "question": "What is Eureka Server?",
+        "answer": "Eureka Server provides service discovery in microservices."
+      },
+      {
+        "question": "What is API Gateway?",
+        "answer": "API Gateway acts as a single entry point for client requests."
+      },
+      {
+        "question": "What is Config Server?",
+        "answer": "Config Server centralizes configuration management."
+      },
+      {
+        "question": "What is Circuit Breaker?",
+        "answer": "Circuit Breaker prevents cascading failures in distributed systems."
+      },
+      {
+        "question": "What is Resilience4j?",
+        "answer": "Resilience4j provides fault tolerance patterns like circuit breakers and retries."
+      },
+      {
+        "question": "What is asynchronous processing?",
+        "answer": "Asynchronous processing executes tasks without blocking the main thread."
+      },
+      {
+        "question": "What is @Async?",
+        "answer": "@Async enables asynchronous method execution."
+      },
+      {
+        "question": "What is caching?",
+        "answer": "Caching stores frequently used data for faster access."
+      },
+      {
+        "question": "What is Redis integration?",
+        "answer": "Redis integration uses Redis as a cache or data store."
+      },
+      {
+        "question": "What is transaction management?",
+        "answer": "Transaction management ensures data consistency during database operations."
+      },
+      {
+        "question": "What is @Transactional?",
+        "answer": "@Transactional manages database transactions automatically."
+      },
+      {
+        "question": "What is Spring Cloud?",
+        "answer": "Spring Cloud provides tools for building distributed systems."
+      },
+      {
+        "question": "What is message-driven architecture?",
+        "answer": "Message-driven architecture uses messaging systems for communication."
+      },
+      {
+        "question": "What is Kafka integration in Spring Boot?",
+        "answer": "Kafka integration enables event-driven communication between services."
+      },
+      {
+        "question": "How do you optimize Spring Boot application performance?",
+        "answer": "Performance can be improved using caching, connection pooling, asynchronous processing and efficient database queries."
+      }
+    ]
+  }
+,
+
+  "REST APIs": {
+    "Easy": [
+      {
+        "question": "What is a REST API?",
+        "answer": "REST API is an architectural style for building web services using HTTP."
+      },
+      {
+        "question": "What does REST stand for?",
+        "answer": "REST stands for Representational State Transfer."
+      },
+      {
+        "question": "Which HTTP method is used to retrieve data?",
+        "answer": "GET is used to retrieve data."
+      },
+      {
+        "question": "Which HTTP method is used to create data?",
+        "answer": "POST is used to create data."
+      },
+      {
+        "question": "Which HTTP method is used to update data?",
+        "answer": "PUT is commonly used to update data."
+      },
+      {
+        "question": "Which HTTP method is used to delete data?",
+        "answer": "DELETE is used to remove data."
+      },
+      {
+        "question": "What is JSON?",
+        "answer": "JSON is a lightweight format used to exchange data."
+      }
+    ],
+    "Medium": [
+      {
+        "question": "What is an endpoint?",
+        "answer": "An endpoint is a URL through which a REST service can be accessed."
+      },
+      {
+        "question": "What is statelessness in REST?",
+        "answer": "Each request contains all information required to process it."
+      },
+      {
+        "question": "What is an HTTP status code?",
+        "answer": "HTTP status codes indicate the result of a request."
+      },
+      {
+        "question": "What is the difference between PUT and PATCH?",
+        "answer": "PUT replaces the entire resource while PATCH partially updates it."
+      },
+      {
+        "question": "What is content negotiation?",
+        "answer": "Content negotiation determines the response format such as JSON or XML."
+      },
+      {
+        "question": "What is idempotency?",
+        "answer": "Multiple identical requests produce the same result."
+      },
+      {
+        "question": "What is API versioning?",
+        "answer": "API versioning manages changes without breaking existing clients."
+      }
+    ],
+    "Hard": [
+      {
+        "question": "What are HATEOAS principles?",
+        "answer": "HATEOAS provides links within responses to guide client interactions."
+      },
+      {
+        "question": "How do you secure REST APIs?",
+        "answer": "Using authentication, authorization, HTTPS and token-based security."
+      },
+      {
+        "question": "What is JWT in REST APIs?",
+        "answer": "JWT is a token used for stateless authentication."
+      },
+      {
+        "question": "What is rate limiting?",
+        "answer": "Rate limiting restricts the number of API requests within a time period."
+      },
+      {
+        "question": "How is exception handling implemented in REST APIs?",
+        "answer": "Using global exception handlers such as @ControllerAdvice."
+      },
+      {
+        "question": "What is API Gateway?",
+        "answer": "API Gateway acts as a single entry point for multiple services."
+      }
+    ]
+  },
+
+  "Spring MVC": {
+    "Easy": [
+      {
+        "question": "What is Spring MVC?",
+        "answer": "Spring MVC is a framework used to build web applications using the MVC pattern."
+      },
+      {
+        "question": "What does MVC stand for?",
+        "answer": "MVC stands for Model View Controller."
+      },
+      {
+        "question": "What is DispatcherServlet?",
+        "answer": "DispatcherServlet is the front controller of Spring MVC."
+      },
+      {
+        "question": "What is a Controller?",
+        "answer": "A Controller processes user requests and returns responses."
+      },
+      {
+        "question": "What is a View?",
+        "answer": "View displays data to the user."
+      },
+      {
+        "question": "What is a Model?",
+        "answer": "Model contains application data and business information."
+      },
+      {
+        "question": "What is @Controller annotation?",
+        "answer": "@Controller marks a class as a Spring MVC controller."
+      }
+    ],
+    "Medium": [
+      {
+        "question": "What is @RequestMapping?",
+        "answer": "@RequestMapping maps web requests to controller methods."
+      },
+      {
+        "question": "What is @GetMapping?",
+        "answer": "@GetMapping handles HTTP GET requests."
+      },
+      {
+        "question": "What is @PostMapping?",
+        "answer": "@PostMapping handles HTTP POST requests."
+      },
+      {
+        "question": "What is ModelAndView?",
+        "answer": "ModelAndView contains both model data and view information."
+      },
+      {
+        "question": "What is ViewResolver?",
+        "answer": "ViewResolver resolves logical view names to actual views."
+      },
+      {
+        "question": "What is @ModelAttribute?",
+        "answer": "@ModelAttribute binds request data to Java objects."
+      },
+      {
+        "question": "What is form validation?",
+        "answer": "Form validation checks whether user input satisfies constraints."
+      }
+    ],
+    "Hard": [
+      {
+        "question": "Explain the Spring MVC request lifecycle.",
+        "answer": "Request reaches DispatcherServlet, handler mapping finds controller, controller processes request, view resolver resolves view and response is returned."
+      },
+      {
+        "question": "What is HandlerInterceptor?",
+        "answer": "HandlerInterceptor intercepts requests before and after controller execution."
+      },
+      {
+        "question": "What is HandlerExceptionResolver?",
+        "answer": "HandlerExceptionResolver handles exceptions during request processing."
+      },
+      {
+        "question": "How does Spring MVC support internationalization?",
+        "answer": "Using LocaleResolver and message resource bundles."
+      },
+      {
+        "question": "How does Spring MVC integrate with Spring Security?",
+        "answer": "Spring Security filters requests before they reach controllers."
+      },
+      {
+        "question": "What is asynchronous processing in Spring MVC?",
+        "answer": "It allows long-running requests to execute without blocking request threads."
+      }
+    ]
+  }
+
+,
+
+
+  "Spring MVC": {
+    "Easy": [
+      {
+        "question": "What is Spring MVC?",
+        "answer": "Spring MVC is a framework used to build web applications using the MVC pattern."
+      },
+      {
+        "question": "What does MVC stand for?",
+        "answer": "MVC stands for Model View Controller."
+      },
+      {
+        "question": "What is DispatcherServlet?",
+        "answer": "DispatcherServlet is the front controller of Spring MVC."
+      },
+      {
+        "question": "What is a Controller?",
+        "answer": "A Controller processes user requests and returns responses."
+      },
+      {
+        "question": "What is a View?",
+        "answer": "View displays data to the user."
+      },
+      {
+        "question": "What is a Model?",
+        "answer": "Model contains application data and business information."
+      },
+      {
+        "question": "What is @Controller annotation?",
+        "answer": "@Controller marks a class as a Spring MVC controller."
+      }
+    ],
+    "Medium": [
+      {
+        "question": "What is @RequestMapping?",
+        "answer": "@RequestMapping maps web requests to controller methods."
+      },
+      {
+        "question": "What is @GetMapping?",
+        "answer": "@GetMapping handles HTTP GET requests."
+      },
+      {
+        "question": "What is @PostMapping?",
+        "answer": "@PostMapping handles HTTP POST requests."
+      },
+      {
+        "question": "What is ModelAndView?",
+        "answer": "ModelAndView contains both model data and view information."
+      },
+      {
+        "question": "What is ViewResolver?",
+        "answer": "ViewResolver resolves logical view names to actual views."
+      },
+      {
+        "question": "What is @ModelAttribute?",
+        "answer": "@ModelAttribute binds request data to Java objects."
+      },
+      {
+        "question": "What is form validation?",
+        "answer": "Form validation checks whether user input satisfies constraints."
+      }
+    ],
+    "Hard": [
+      {
+        "question": "Explain the Spring MVC request lifecycle.",
+        "answer": "Request reaches DispatcherServlet, handler mapping finds controller, controller processes request, view resolver resolves view and response is returned."
+      },
+      {
+        "question": "What is HandlerInterceptor?",
+        "answer": "HandlerInterceptor intercepts requests before and after controller execution."
+      },
+      {
+        "question": "What is HandlerExceptionResolver?",
+        "answer": "HandlerExceptionResolver handles exceptions during request processing."
+      },
+      {
+        "question": "How does Spring MVC support internationalization?",
+        "answer": "Using LocaleResolver and message resource bundles."
+      },
+      {
+        "question": "How does Spring MVC integrate with Spring Security?",
+        "answer": "Spring Security filters requests before they reach controllers."
+      },
+      {
+        "question": "What is asynchronous processing in Spring MVC?",
+        "answer": "It allows long-running requests to execute without blocking request threads."
+      }
+    ]
+  }
+
+,
+  "JPA": {
+    "Easy": [
+      {
+        "question": "What is JPA?",
+        "answer": "JPA stands for Java Persistence API and provides specifications for ORM in Java."
+      },
+      {
+        "question": "Is JPA a framework?",
+        "answer": "No, JPA is a specification. Hibernate is one of its implementations."
+      },
+      {
+        "question": "What is an Entity in JPA?",
+        "answer": "An Entity is a Java class mapped to a database table."
+      },
+      {
+        "question": "What does @Entity do?",
+        "answer": "@Entity marks a class as a persistent JPA entity."
+      },
+      {
+        "question": "What is @Id?",
+        "answer": "@Id identifies the primary key of an entity."
+      },
+      {
+        "question": "What is @GeneratedValue?",
+        "answer": "@GeneratedValue automatically generates primary key values."
+      },
+      {
+        "question": "What is a Repository?",
+        "answer": "A Repository provides methods for database operations."
+      }
+    ],
+    "Medium": [
+      {
+        "question": "What is JpaRepository?",
+        "answer": "JpaRepository provides CRUD, pagination, and sorting operations."
+      },
+      {
+        "question": "What is CrudRepository?",
+        "answer": "CrudRepository provides basic CRUD operations."
+      },
+      {
+        "question": "What is PagingAndSortingRepository?",
+        "answer": "It provides pagination and sorting capabilities."
+      },
+      {
+        "question": "What is @Query?",
+        "answer": "@Query allows custom JPQL or native SQL queries."
+      },
+      {
+        "question": "What is JPQL?",
+        "answer": "JPQL is Java Persistence Query Language used to query entities."
+      },
+      {
+        "question": "What is a Native Query?",
+        "answer": "A Native Query uses database-specific SQL statements."
+      },
+      {
+        "question": "What is pagination in JPA?",
+        "answer": "Pagination retrieves records in smaller chunks using Page and Pageable."
+      }
+    ],
+    "Hard": [
+      {
+        "question": "What is the EntityManager?",
+        "answer": "EntityManager manages entity lifecycle and persistence operations."
+      },
+      {
+        "question": "What are JPA entity states?",
+        "answer": "Transient, Managed, Detached, and Removed."
+      },
+      {
+        "question": "What is optimistic locking?",
+        "answer": "Optimistic locking prevents concurrent update conflicts using version fields."
+      },
+      {
+        "question": "What is pessimistic locking?",
+        "answer": "Pessimistic locking locks database records during transactions."
+      },
+      {
+        "question": "What is cascading in JPA?",
+        "answer": "Cascading propagates operations from parent entities to child entities."
+      },
+      {
+        "question": "How can JPA performance be improved?",
+        "answer": "Using caching, fetch optimization, pagination, and efficient queries."
+      }
+    ]
+  },
+
+  "MySQL": {
+    "Easy": [
+      {
+        "question": "What is MySQL?",
+        "answer": "MySQL is an open-source relational database management system."
+      },
+      {
+        "question": "What is a database?",
+        "answer": "A database is an organized collection of data."
+      },
+      {
+        "question": "What is a table?",
+        "answer": "A table stores data in rows and columns."
+      },
+      {
+        "question": "What is a primary key?",
+        "answer": "A primary key uniquely identifies each record in a table."
+      },
+      {
+        "question": "What is a foreign key?",
+        "answer": "A foreign key establishes relationships between tables."
+      },
+      {
+        "question": "What is SQL?",
+        "answer": "SQL is a language used to interact with relational databases."
+      },
+      {
+        "question": "What is the SELECT statement?",
+        "answer": "SELECT retrieves data from database tables."
+      }
+    ],
+    "Medium": [
+      {
+        "question": "What is the difference between DELETE and TRUNCATE?",
+        "answer": "DELETE removes rows individually while TRUNCATE removes all rows quickly."
+      },
+      {
+        "question": "What is the difference between WHERE and HAVING?",
+        "answer": "WHERE filters rows before grouping, HAVING filters grouped results."
+      },
+      {
+        "question": "What is normalization?",
+        "answer": "Normalization reduces data redundancy and improves consistency."
+      },
+      {
+        "question": "What is denormalization?",
+        "answer": "Denormalization combines tables to improve read performance."
+      },
+      {
+        "question": "What is an index?",
+        "answer": "An index improves query performance by speeding up data retrieval."
+      },
+      {
+        "question": "What is a JOIN?",
+        "answer": "A JOIN combines rows from multiple tables based on relationships."
+      },
+      {
+        "question": "What are INNER JOIN and LEFT JOIN?",
+        "answer": "INNER JOIN returns matching rows, LEFT JOIN returns all left table rows and matching right table rows."
+      }
+    ],
+    "Hard": [
+      {
+        "question": "What is transaction management?",
+        "answer": "Transaction management ensures database operations are executed reliably."
+      },
+      {
+        "question": "What are ACID properties?",
+        "answer": "ACID stands for Atomicity, Consistency, Isolation, and Durability."
+      },
+      {
+        "question": "What is a deadlock in MySQL?",
+        "answer": "A deadlock occurs when transactions wait indefinitely for each other."
+      },
+      {
+        "question": "What is query optimization?",
+        "answer": "Query optimization improves execution speed and resource utilization."
+      },
+      {
+        "question": "What are stored procedures?",
+        "answer": "Stored procedures are reusable SQL programs stored in the database."
+      },
+      {
+        "question": "How do you improve MySQL performance?",
+        "answer": "Using indexing, query optimization, caching, and proper schema design."
+      }
+    ]
+  }
+
+,
+  "Git": {
+    "Easy": [
+      {
+        "question": "What is Git?",
+        "answer": "Git is a distributed version control system used to track code changes."
+      },
+      {
+        "question": "Why is Git used?",
+        "answer": "Git helps developers track changes, collaborate, and manage source code."
+      },
+      {
+        "question": "What is a repository in Git?",
+        "answer": "A repository is a storage location that contains project files and version history."
+      },
+      {
+        "question": "What is git init?",
+        "answer": "git init creates a new Git repository."
+      },
+      {
+        "question": "What is git clone?",
+        "answer": "git clone creates a copy of an existing repository."
+      },
+      {
+        "question": "What is git add?",
+        "answer": "git add stages changes for the next commit."
+      },
+      {
+        "question": "What is git commit?",
+        "answer": "git commit saves staged changes to the repository history."
+      }
+    ],
+    "Medium": [
+      {
+        "question": "What is a branch in Git?",
+        "answer": "A branch is an independent line of development."
+      },
+      {
+        "question": "What is git branch?",
+        "answer": "git branch is used to create, list, or delete branches."
+      },
+      {
+        "question": "What is git checkout?",
+        "answer": "git checkout switches between branches or restores files."
+      },
+      {
+        "question": "What is git merge?",
+        "answer": "git merge combines changes from one branch into another."
+      },
+      {
+        "question": "What is git pull?",
+        "answer": "git pull fetches and merges changes from a remote repository."
+      },
+      {
+        "question": "What is git push?",
+        "answer": "git push uploads local commits to a remote repository."
+      },
+      {
+        "question": "What is git fetch?",
+        "answer": "git fetch downloads changes without merging them."
+      }
+    ],
+    "Hard": [
+      {
+        "question": "What is git rebase?",
+        "answer": "git rebase moves or combines commits onto another branch."
+      },
+      {
+        "question": "What is git cherry-pick?",
+        "answer": "git cherry-pick applies a specific commit to another branch."
+      },
+      {
+        "question": "What is a merge conflict?",
+        "answer": "A merge conflict occurs when Git cannot automatically merge changes."
+      },
+      {
+        "question": "What is git stash?",
+        "answer": "git stash temporarily saves uncommitted changes."
+      },
+      {
+        "question": "What is the difference between merge and rebase?",
+        "answer": "Merge preserves history while rebase creates a linear history."
+      },
+      {
+        "question": "How do you recover deleted commits?",
+        "answer": "Using git reflog and git reset commands."
+      }
+    ]
+  },
+
+  "GitHub": {
+    "Easy": [
+      {
+        "question": "What is GitHub?",
+        "answer": "GitHub is a cloud-based platform for hosting Git repositories."
+      },
+      {
+        "question": "Why is GitHub used?",
+        "answer": "GitHub enables collaboration, version control, and project management."
+      },
+      {
+        "question": "What is a GitHub repository?",
+        "answer": "A GitHub repository stores project files and Git history online."
+      },
+      {
+        "question": "What is a public repository?",
+        "answer": "A public repository is visible to everyone."
+      },
+      {
+        "question": "What is a private repository?",
+        "answer": "A private repository is accessible only to authorized users."
+      },
+      {
+        "question": "What is a fork?",
+        "answer": "A fork is a personal copy of another repository."
+      },
+      {
+        "question": "What is a star in GitHub?",
+        "answer": "A star is used to bookmark and show appreciation for repositories."
+      }
+    ],
+    "Medium": [
+      {
+        "question": "What is a pull request?",
+        "answer": "A pull request proposes changes to be reviewed before merging."
+      },
+      {
+        "question": "What is code review?",
+        "answer": "Code review is the process of examining code changes before merging."
+      },
+      {
+        "question": "What are GitHub Issues?",
+        "answer": "Issues are used to track bugs, enhancements, and tasks."
+      },
+      {
+        "question": "What are GitHub Actions?",
+        "answer": "GitHub Actions automate workflows such as testing and deployment."
+      },
+      {
+        "question": "What is a GitHub Workflow?",
+        "answer": "A workflow is an automated process defined in YAML files."
+      },
+      {
+        "question": "What is branch protection?",
+        "answer": "Branch protection prevents unauthorized or unsafe changes."
+      },
+      {
+        "question": "What are GitHub Releases?",
+        "answer": "GitHub Releases package and distribute application versions."
+      }
+    ],
+    "Hard": [
+      {
+        "question": "What is CI/CD using GitHub Actions?",
+        "answer": "CI/CD automates code integration, testing, and deployment."
+      },
+      {
+        "question": "What are GitHub Secrets?",
+        "answer": "GitHub Secrets securely store sensitive information for workflows."
+      },
+      {
+        "question": "What is Dependabot?",
+        "answer": "Dependabot automatically updates project dependencies."
+      },
+      {
+        "question": "How do you manage large teams in GitHub?",
+        "answer": "Using organizations, teams, permissions, and branch protection rules."
+      },
+      {
+        "question": "What is GitHub Packages?",
+        "answer": "GitHub Packages is a package hosting service integrated with GitHub."
+      },
+      {
+        "question": "How do you secure a GitHub repository?",
+        "answer": "Using branch protection, code reviews, secret scanning, and access controls."
+      }
+    ]
+  },
+
+  "Maven": {
+    "Easy": [
+      {
+        "question": "What is Maven?",
+        "answer": "Maven is a build automation and dependency management tool."
+      },
+      {
+        "question": "Why is Maven used?",
+        "answer": "Maven simplifies project building, dependency management, and packaging."
+      },
+      {
+        "question": "What is pom.xml?",
+        "answer": "pom.xml is Maven's configuration file containing project details and dependencies."
+      },
+      {
+        "question": "What is a dependency?",
+        "answer": "A dependency is an external library required by a project."
+      },
+      {
+        "question": "What is Maven Central?",
+        "answer": "Maven Central is the default repository for Maven dependencies."
+      },
+      {
+        "question": "What is mvn compile?",
+        "answer": "mvn compile compiles the project's source code."
+      },
+      {
+        "question": "What is mvn package?",
+        "answer": "mvn package compiles and packages the application."
+      }
+    ],
+    "Medium": [
+      {
+        "question": "What is mvn clean?",
+        "answer": "mvn clean removes previously generated build files."
+      },
+      {
+        "question": "What is mvn install?",
+        "answer": "mvn install installs the built artifact into the local repository."
+      },
+      {
+        "question": "What is the Maven lifecycle?",
+        "answer": "The Maven lifecycle defines phases for building and deploying projects."
+      },
+      {
+        "question": "What are Maven plugins?",
+        "answer": "Plugins provide additional build functionality."
+      },
+      {
+        "question": "What is dependency scope?",
+        "answer": "Dependency scope controls when dependencies are available."
+      },
+      {
+        "question": "What are common dependency scopes?",
+        "answer": "compile, provided, runtime, test, and system."
+      },
+      {
+        "question": "What is mvn test?",
+        "answer": "mvn test executes unit tests."
+      }
+    ],
+    "Hard": [
+      {
+        "question": "What is dependency conflict in Maven?",
+        "answer": "Dependency conflict occurs when multiple versions of the same library exist."
+      },
+      {
+        "question": "How does Maven resolve dependency conflicts?",
+        "answer": "Maven uses the nearest dependency definition strategy."
+      },
+      {
+        "question": "What is a multi-module Maven project?",
+        "answer": "A multi-module project contains multiple related modules managed together."
+      },
+      {
+        "question": "What is the Maven Surefire Plugin?",
+        "answer": "Surefire Plugin executes unit tests during the build process."
+      },
+      {
+        "question": "What is the Maven Shade Plugin?",
+        "answer": "Shade Plugin creates an executable JAR with dependencies."
+      },
+      {
+        "question": "How do you optimize Maven builds?",
+        "answer": "Using dependency management, parallel builds, caching, and efficient plugins."
+      }
+    ]
+  }
+}
+}
