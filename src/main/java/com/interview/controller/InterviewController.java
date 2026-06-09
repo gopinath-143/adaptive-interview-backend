@@ -20,7 +20,7 @@ import com.interview.dto.NextQuestionResponse;
 import com.interview.dto.StartInterviewResponse;
 import com.interview.service.InterviewService;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/interview")
 public class InterviewController {
