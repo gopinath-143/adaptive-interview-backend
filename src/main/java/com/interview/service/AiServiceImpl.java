@@ -196,18 +196,39 @@ public class AiServiceImpl implements AiService {
             String masterAnswer,
             String candidateAnswer) {
 
-        // Handle blank answers immediately
+        AiEvaluationResponse response =
+                new AiEvaluationResponse();
+
+        // Handle skipped / blank answers
 
         if (candidateAnswer == null
                 || candidateAnswer.trim().isEmpty()) {
 
-            AiEvaluationResponse response =
-                    new AiEvaluationResponse();
+            response.setScore(0.0);
+
+            response.setFeedback(
+                    "Question Skipped");
+
+            return response;
+        }
+
+        String answer =
+                candidateAnswer
+                        .trim()
+                        .toLowerCase();
+
+        if (answer.equals("i don't know")
+                || answer.equals("i dont know")
+                || answer.equals("dont know")
+                || answer.equals("don't know")
+                || answer.equals("skip")
+                || answer.equals("n/a")
+                || answer.equals("no idea")) {
 
             response.setScore(0.0);
 
             response.setFeedback(
-                    "Blank Answer");
+                    "Question Skipped");
 
             return response;
         }
@@ -252,9 +273,6 @@ public class AiServiceImpl implements AiService {
         System.out.println(
                 "AI Response = "
                         + aiResponse);
-
-        AiEvaluationResponse response =
-                new AiEvaluationResponse();
 
         try {
 
